@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
-    avatar: "/professional-woman-scientist.png",
-    content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
-  },
-  {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Профессор Андрей Волков",
+    role: "Историк, МГУ им. Ломоносова",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "SATOR — один из редчайших артефактов, который сохраняет свою загадочность невзирая на тысячелетия изучения. Каждое новое поколение учёных открывает в нём что-то своё.",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Мария Фонтейн",
+    role: "Лингвист, Парижский университет Сорбонна",
+    avatar: "/professional-woman-scientist.png",
+    content:
+      "Лингвистическая структура квадрата не имеет аналогов в истории латинского языка. Это настоящее чудо — пять слов, идеально вписанных в матрицу симметрии.",
+  },
+  {
+    name: "Карлос Мендес",
+    role: "Археолог, Национальный музей Рима",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "За 30 лет работы с древними артефактами я не встречал ничего, что вызывало бы столь живой интерес и у специалистов, и у широкой публики одновременно.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Что говорят исследователи</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Учёные со всего мира посвящают годы изучению феномена SATOR
           </p>
         </div>
 
